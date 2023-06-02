@@ -13,18 +13,15 @@ const { Title } = Typography;
 const CarouselContainer = () => {
   return (
     <div className="carousel">
-      {/* Bg-img container */}
       <img
         src={bgImage}
         alt="background-image"
         className="w-full h-full object-cover absolute top-0 left-0 -z-10"
       />
-      {/* Logo */}
       <div className="w-[10%]">
         <img src={logo} alt="logo" className="w-full object-contain" />
       </div>
       <div>
-        {/* Carousel */}
         <Carousel
           autoplay
           className={`${style.typography} text-white text-2xl h-4/6`}
@@ -58,7 +55,6 @@ const CarouselContainer = () => {
           </div>
         </Carousel>
         <div className="mt-24 flex justify-between items-center">
-          {/* website link */}
           <div>
             <a
               href="https://aesthisia.com/"
@@ -68,28 +64,14 @@ const CarouselContainer = () => {
               <p>aesthisia.com</p>
             </a>
           </div>
-
-          {/* social links */}
           <div className=" flex space-x-3 ">
-            <a
-              href="https://www.linkedin.com/company/aesthisia/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://www.linkedin.com/company/aesthisia/">
               <img src={linkedinIcon} alt="linkedinIcon" className="w-4" />
             </a>
-            <a
-              href="https://www.facebook.com/aesthisia/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://www.facebook.com/aesthisia/">
               <img src={facebookIcon} alt="facebookIcon" className="w-4" />
             </a>
-            <a
-              href="https://www.instagram.com/aesthisia/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://www.instagram.com/aesthisia/">
               <img src={instaIcon} alt="facebookIcon" className="w-4" />
             </a>
           </div>
