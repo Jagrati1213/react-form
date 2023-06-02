@@ -8,6 +8,18 @@ This project is assignments, where I used react,typescript for more consistency.
 - Eslint & Prettier - To format & reduce Bugs.
 
 # Project Gallery
-![image](https://github.com/Jagrati1213/react-form/assets/85276293/36039b6f-0fb9-404d-8b94-4874b9e49ca8)
+- **Login Page** 
+
+   ![image](https://github.com/Jagrati1213/react-form/assets/85276293/36039b6f-0fb9-404d-8b94-4874b9e49ca8)
+
+- **SignIn page**
+
+  ![image](https://github.com/Jagrati1213/react-form/assets/85276293/35064cce-3f36-436d-b966-0c54162c7289)
+
+- **Welcome Page
+
+   ![image](https://github.com/Jagrati1213/react-form/assets/85276293/1c874538-07c5-4cba-96c7-a9a1e4369c4b)
+
+
 
 
