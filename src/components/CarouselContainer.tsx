@@ -74,13 +74,22 @@ const CarouselContainer = () => {
             <a
               href="https://www.linkedin.com/company/aesthisia/"
               target="_blank"
+              rel="noreferrer"
             >
               <img src={linkedinIcon} alt="linkedinIcon" className="w-4" />
             </a>
-            <a href="https://www.facebook.com/aesthisia/" target="_blank">
+            <a
+              href="https://www.facebook.com/aesthisia/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={facebookIcon} alt="facebookIcon" className="w-4" />
             </a>
-            <a href="https://www.instagram.com/aesthisia/" target="_blank">
+            <a
+              href="https://www.instagram.com/aesthisia/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={instaIcon} alt="facebookIcon" className="w-4" />
             </a>
           </div>
